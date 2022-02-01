@@ -19,6 +19,3 @@ def send_email(message):
     except Exception as e:
         print(e)
         print("Error: unable to send email")
-
-
-send_email("Test 123")
